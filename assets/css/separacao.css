@@ -1,0 +1,28 @@
+.separation {
+    background-color: #ffeb00;
+    padding: 25px;
+}
+
+.separation-container {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+    font-weight: 600;
+    color: #5595d1;
+    gap: 15px;
+}
+
+.icon-exclamacao {
+    width: 45px;
+    fill: #5595d1;
+}
+
+
+@media (max-width: 1024px) {
+    .separation-container {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,106 @@
+.talk {
+    padding-block: 100px;
+    background-color: #5595d1;
+}
+
+.talk-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.talk-container h2{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    color: #ffeb00;
+    width: 60%;
+}
+
+.talk-container p{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.contact-info {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.contact-info a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.contact-info span{
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.contact-info img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.fa-arrow-right {
+    font-size: 20px;
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    background-color: #ffeb00;
+    cursor: pointer;
+    padding: 20px;
+    width: 50%;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-top: 45px;
+}
+
+.cta-button:hover {
+    background-color: #fcf06c;
+}
+
+
+@media (max-width: 1024px) {
+    .talk-container {
+        width: 90%;
+        text-align: center;
+    }
+    .cta-button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .talk-container h2 {
+        width: 90%;
+    }
+    .cta-button {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta-button {
+        font-size: 14px;
+        padding: 15px;
+    }
+}

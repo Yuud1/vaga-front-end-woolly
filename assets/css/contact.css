@@ -1,0 +1,131 @@
+.contact {
+    background-color: #e9e9e9;
+    padding-block: 50px;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-left {
+    flex: 1;
+    margin: 20px;
+}
+
+.contact-left h1 {
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #5595d1;
+}
+
+.contact-left img {
+    width: 600px;
+    margin-left: -130px;
+}
+
+.contact-left span {
+    font-weight: 800;
+}
+
+.contact-color {
+    color: rgb(77, 77, 77);
+}
+
+.contact-right {
+    flex: 1;
+    background-color: white;
+    color: #9b9b9b;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 20px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: small;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: -10px;
+    font-weight: 600;
+}
+
+.yellow-icon {
+    color: #ffeb00;
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2.3px solid black;
+    margin-top: 30px;
+    background-color: #5595d1;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #74a2cd;
+}
+
+
+@media (max-width: 1024px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contact-left img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .contact-right {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-group input {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .submit-btn {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-left h1 {
+        font-size: larger;
+    }
+    .contact-left img {
+        width: 100%;
+    }
+    .contact-right {
+        padding: 20px;
+    }
+}
